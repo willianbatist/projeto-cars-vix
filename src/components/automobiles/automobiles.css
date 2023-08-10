@@ -1,0 +1,74 @@
+section {
+  margin-top: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+section > div {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.automobileCard {
+  overflow-y: hidden;
+  border-radius: 5px;
+  background-color: white;
+  width: 260px;
+  height: 330px;
+  margin: 20px;
+  box-shadow: rgba(158, 184, 209, 0.41) 0px 2px 9px 0px;
+}
+
+.automobileCard:hover {
+  box-shadow: none;
+  border: 1px solid #98b828;
+}
+
+.automobileCard > a {
+  background-color: white;
+  width: 100%;
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.automobileCard > a > div {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: Helvetica, Times New Roman;
+  font-weight: 600;
+  font-size: 17px;
+  color: #4a5a11;
+}
+
+#description {
+  font-family: Helvetica, Times New Roman;
+  font-size: 15px;
+  color: #4a5a11;
+  margin-top: -8px;
+}
+
+#price {
+  margin-top: -7px;
+  font-family: Helvetica, Times New Roman;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#year {
+  font-family: Helvetica, Times New Roman;
+  font-size: 15px;
+  color: #4a5a11;
+}

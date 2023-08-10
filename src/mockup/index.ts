@@ -22,6 +22,7 @@ import voyage from "../assets/volkswagen_voyage.jpg";
 
 export const cars = [
   {
+    id: 1,
     img: cruze,
     brand: "Chevrolet",
     model: "Cruze",
@@ -38,6 +39,7 @@ export const cars = [
     ],
   },
   {
+    id: 2,
     img: onix,
     brand: "Chevrolet",
     model: "Onix",
@@ -54,6 +56,7 @@ export const cars = [
     ],
   },
   {
+    id: 3,
     img: prisma,
     brand: "Chevrolet",
     model: "Prisma",
@@ -70,6 +73,7 @@ export const cars = [
     ],
   },
   {
+    id: 4,
     img: argo,
     brand: "Fiat",
     model: "Argo",
@@ -86,6 +90,7 @@ export const cars = [
     ],
   },
   {
+    id: 5,
     img: mobi,
     brand: "Fiat",
     model: "Mobi",
@@ -102,6 +107,7 @@ export const cars = [
     ],
   },
   {
+    id: 6,
     img: pulse,
     brand: "Fiat",
     model: "Pulse",
@@ -118,6 +124,7 @@ export const cars = [
     ],
   },
   {
+    id: 7,
     img: siena,
     brand: "Fiat",
     model: "Siena",
@@ -134,6 +141,7 @@ export const cars = [
     ],
   },
   {
+    id: 8,
     img: strada,
     brand: "Fiat",
     model: "Strada",
@@ -150,6 +158,7 @@ export const cars = [
     ],
   },
   {
+    id: 9,
     img: uno,
     brand: "Fiat",
     model: "Uno",
@@ -166,6 +175,7 @@ export const cars = [
     ],
   },
   {
+    id: 10,
     img: hb20,
     brand: "Hyundai",
     model: "HB20",
@@ -182,6 +192,7 @@ export const cars = [
     ],
   },
   {
+    id: 11,
     img: hb20s,
     brand: "Hyundai",
     model: "HB20S",
@@ -198,6 +209,7 @@ export const cars = [
     ],
   },
   {
+    id: 12,
     img: compass,
     brand: "Jeep",
     model: "Compass",
@@ -214,6 +226,7 @@ export const cars = [
     ],
   },
   {
+    id: 13,
     img: renegade,
     brand: "Jeep",
     model: "Renegade",
@@ -230,6 +243,7 @@ export const cars = [
     ],
   },
   {
+    id: 14,
     img: duster,
     brand: "Renault",
     model: "Duster",
@@ -246,6 +260,7 @@ export const cars = [
     ],
   },
   {
+    id: 15,
     img: logan,
     brand: "Renault",
     model: "Logan",
@@ -262,6 +277,7 @@ export const cars = [
     ],
   },
   {
+    id: 16,
     img: sandero,
     brand: "Renault",
     model: "Sandero",
@@ -278,6 +294,7 @@ export const cars = [
     ],
   },
   {
+    id: 17,
     img: corolla,
     brand: "Toyota",
     model: "Corolla",
@@ -294,6 +311,7 @@ export const cars = [
     ],
   },
   {
+    id: 18,
     img: hilux,
     brand: "Toyota",
     model: "Hilux",
@@ -310,6 +328,7 @@ export const cars = [
     ],
   },
   {
+    id: 19,
     img: gol,
     brand: "Volkswagen",
     model: "Gol",
@@ -326,6 +345,7 @@ export const cars = [
     ],
   },
   {
+    id: 20,
     img: voyage,
     brand: "Volkswagen",
     model: "Voyage",
