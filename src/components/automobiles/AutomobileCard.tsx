@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function AutomobileCard({ id, img, brand, model, description, year, price }: ICar) {
   return (
     <div className="automobileCard">
-      <Link href={`/automobile/${id}`}>
+      <Link href={`/automovel/${id}`}>
         <Image src={img} alt="imagem de carro" width={240} height={140} />
         <div>
           <div>

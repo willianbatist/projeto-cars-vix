@@ -14,7 +14,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #ECEDF2;
   border-radius: 10px;
 }
 
@@ -32,4 +32,5 @@
 
 body {
   background: #f8faf8;
+  overflow-y: hidden;
 }
