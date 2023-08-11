@@ -6,8 +6,7 @@ Este repositório contem o **Projeto Catálogo de automóveis** que reúne o apr
 
 ### Resultado obtido:
 
-https://user-images.githubusercontent.com/91439283/236925302-c21cf73c-b4d4-4e3c-8a01-219162c5d11e.mp4
-
+https://github.com/willianbatist/projeto-cars-vix/assets/91439283/ec1c05d2-ce34-44f4-ae7e-4cdf3b90d3d9
 
 
 #### Habilidades que foram exigidas:
