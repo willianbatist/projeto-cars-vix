@@ -1,0 +1,26 @@
+.container-filter {
+  margin-top: 120px;
+  margin-left: 20px;
+}
+
+.filter-body > p {
+  cursor: pointer;
+}
+
+.filter-body > p:hover {
+  color: #98b828;
+}
+
+#btn-filter {
+  color: #98b828;
+}
+
+.filter-body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.filter-body > h2 {
+  margin-top: 20px;
+}

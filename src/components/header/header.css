@@ -1,5 +1,6 @@
 .header {
   position: fixed;
+  z-index: 2;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -17,12 +18,17 @@
   color: #4a5a11;
 }
 
+
 .header > a {
   font-family: Helvetica, Times New Roman;
   font-weight: 600;
   font-size: 17px;
   letter-spacing: 1px;
   color: #4a5a11;
+}
+
+.header > a:hover {
+  color: #98b828;
 }
 
 .container-welcome-user {
