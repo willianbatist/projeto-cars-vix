@@ -29,20 +29,34 @@ https://github.com/willianbatist/projeto-cars-vix/assets/91439283/ec1c05d2-ce34-
 
 ## Apresentação do Projeto
 
-É uma aplicação web de catálogo de automóveis que exibe uma lista de carros com
-informações básicas. Permitindo filtrar por modelo, marca e ano, tambem é possivel ver detalhes do automóvel escolhido. 
+Sistema de agendamento para barbearia ClickBeard para ajudar com a organização.
 
-Observação é necessário ter o node instalado.
+Observação é necessário ter o node instalado e docker-compose.
 
 ## Inciando o projeto
 
 Para da start no projeto, basta realizar o download ou clonar esse repositório.
 
-Dentro do repositório, entre no terminal e instale as lib:
+Dentro do repositório, entre na pasta backend no terminal e instale as lib:
 
     npm install
 
-E depois só da start:
+Para roda o banco de dados:
+
+    docker-compose up -d
+
+Para subir as tabelas:
+
+    prisma migrate deploy
+
+É necessario popular o banco com algumas informações, suba a seed com o comando:
+
+    npx prisma db seed
+
+Agora basta da start no backend:
 
     npm start
+
+vai ficar ativo na rota:  http://localhost:3001/
+
 
