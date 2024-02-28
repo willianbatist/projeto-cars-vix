@@ -12,7 +12,12 @@ import hb20s from "../assets/hyundai_hb20s.jpg";
 import compass from "../assets/jeep_compass.jpg";
 import renegade from "../assets/jeep_renegade.jpg";
 import duster from "../assets/renault_duster.jpg";
-
+import logan from "../assets/renault_logan.jpg";
+import sandero from "../assets/renault_sandero.jpg";
+import corolla from "../assets/toyota_corolla.jpg";
+import hilux from "../assets/toyota_hilux.jpg";
+import gol from "../assets/volkswagen_gol.jpg";
+import voyage from "../assets/volkswagen_voyage.jpg";
 
 
 export const cars = [
