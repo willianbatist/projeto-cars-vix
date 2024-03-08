@@ -2,7 +2,7 @@
 import "./automobile.css";
 import { notFound, usePathname } from "next/navigation";
 import { cars } from "../../mockup/index";
-
+import Image from "next/image";
 
 
 export default function Automobile() {
