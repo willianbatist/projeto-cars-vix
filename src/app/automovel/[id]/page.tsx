@@ -8,7 +8,7 @@ export default function DetailsCharacterId() {
   return (
     <>
       <Header />
-
+      <Automobile />
       <Footer />
     </>
   );
