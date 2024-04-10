@@ -8,8 +8,7 @@ export default function Home() {
     <>
       <Header />
       <Filter/>
-      <Automobiles/>
-      <Footer/>
+
     </>
   );
 }
