@@ -5,7 +5,8 @@ export interface AppContextInterface {
   setFilterString: React.Dispatch<React.SetStateAction<string>>,
   filterYear: number,
   setFilterYear: React.Dispatch<React.SetStateAction<number>>,
-
+  filterModel: string, 
+  setFilterModel: React.Dispatch<React.SetStateAction<string>>,
 }
 
 
