@@ -3,7 +3,9 @@ import "./automobiles.css";
 import { cars } from "../../mockup/index";
 import AutomobileCard from "./AutomobileCard";
 import { useContext  } from 'react';
-
+import { AppContext } from '../../components/providers/contextProvider';
+import { ICar } from "../../types/index";
+import { handleCharactersFilter } from "../../utils/index";
 
 
 
